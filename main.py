@@ -72,7 +72,7 @@ class CoordinateSystemApp:
             tk.messagebox.showerror("Error", "Invalid input. Please enter numeric values for X, Y, and Size.")
 
     def random_plot(self):
-        x = random.uniform(-100, 100)
+        x = random.uniform(-110, 100)
         y = random.uniform(-100, 100)
         color = "#{:06x}".format(random.randint(0, 0xFFFFFF))  # Random color
         shape = random.choice(["oval", "rectangle"])  # Random shape
