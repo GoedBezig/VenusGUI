@@ -44,9 +44,7 @@ if __name__ == "__main__":
     app = CoordinateSystemApp(root)
     
     # Example usage: plot a hexagon at coordinates (50, 50) with a blue color and larger size
-    app.plot_point(50, 50, color="blue", shape="circle", size=10)
-    app.plot_point(-50, 0, color="green", shape="hexagon", size=20)
-    app.plot_point(0, -50, color="red", shape="square", size=15)
 
-    
+    app.plot_point(50, 50, color="blue", shape="circle", size=10)
+
     root.mainloop()
